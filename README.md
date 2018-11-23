@@ -35,7 +35,7 @@ Here's a sample `docker-compose.yml` file - it's unlikely you'll need to do anyt
 
 	services:
 		urbackup:
-			image: whatang/urbackup:latest
+			image: whatang/docker_urbackup:latest
 			restart: always
 			ports:
 				- 55413:55413
